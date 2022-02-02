@@ -18,7 +18,7 @@ services:
     environment:
       USER_BM_DATABASE: admin
       PASSWD_BM_DATABASE: admin
-      HOST_BM_DATABASE: servidor_mariadb2
+      HOST_BM_DATABASE: servidor_mariadb
       NAME_BM_DATABASE: bookmedik
     ports:
       - 8080:80
